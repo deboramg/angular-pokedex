@@ -7,7 +7,7 @@ import { PokemonService } from '../service/pokemon.service';
   styleUrl: './pokemon-list.component.css'
 })
 export class PokemonListComponent {
-  pokemons = ['Bulbasaur', 'Ivysaur', 'Venosaur', 'Charmander', 'Charmeleon', 'Charizard', 'Squirtle', 'Wartortle', 'Blastoise', 'Cartepie', 'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedrill', 'Pidgey', 'Pidgeotto', 'Pidgeot', 'Rattata', 'Raticate']
+  pokemons = ['Bulbasaur', 'Ivysaur', 'Venosaur', 'Charmander', 'Charmeleon', 'Charizard', 'Squirtle', 'Wartortle', 'Blastoise', 'Cartepie', 'Metapod', 'Butterfree', 'Weedle', 'Kakuna', 'Beedrill', 'Pidgey', 'Pidgeotto', 'Pidgeot', 'Rattata', 'Raticate', 'Spearow', 'Fearow', 'Ekans']
 
   constructor(private pokemonService: PokemonService) {}
 
